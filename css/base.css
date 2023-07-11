@@ -1,0 +1,66 @@
+/*--- Color Start--- */
+:root {
+    --green: #86BE3F;
+    --dark: #363636;
+    --dark-black: #1E1E1E;
+    --white: #ffffff;
+    --light-gray: #F8F8F8;
+    --dark-gray: #666666;
+}
+/*--- Color End--- */
+
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.bg-gray {
+    background: #F9F9F9;
+}
+
+/* Remove box shadows on focus */
+.navbar-toggler,
+.btn:focus,
+.btn:active,
+.btn:hover,
+.form-control:focus,
+.custom-select:focus,
+.input-group-text:focus,
+.input-group-text:active,
+.input-group-text:hover {
+    box-shadow: none !important;
+    border-color: #86BE3F;
+}
+
+/* Remove outline on focus */
+.navbar-toggler,
+.btn:focus,
+.btn:active,
+.btn:hover,
+.form-control:focus,
+.custom-select:focus,
+.input-group-text:focus,
+.input-group-text:active,
+.input-group-text:hover,
+.input-group-text:not(:focus):not(:active):not(:hover):not(:disabled):not(.disabled):focus-visible {
+    outline: none !important;
+}
+
+
+.btn-primary {
+    background-color: #86BE3F !important;
+    border-color: #86BE3F !important;
+    color: #FFFFFF !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #6FA62C !important;
+    border-color: #6FA62C !important;
+}
+
+
+.form-control {
+    border-color: #DEDEDE;
+    padding: 17px !important;
+}

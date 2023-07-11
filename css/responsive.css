@@ -1,0 +1,597 @@
+
+@media only screen and (min-width: 1400px){
+    .HIW .main-card {
+        padding: 13px 55px 13px 13px;
+        min-height: 296px;
+    }
+    .HIW .card .card-body {
+        padding: 30px;
+        min-height: 270px;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+    .HIW .main-card {
+        padding: 13px 55px 13px 13px;
+        min-height: 245px;
+    }
+    .HIW .card .card-body {
+        padding: 10px 10px 10px 10px;
+        min-height: 220px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1099px) {
+    .HIW .main-card {
+        padding: 13px 38px 13px 13px;
+        min-height: 216px;
+    }
+    .HIW .card .card-body {
+        min-height: 185px;
+        padding: 10px 10px 10px 10px;
+    }
+
+
+    .HIW .card .card-body .icon {
+        margin: 0 auto 10px auto;
+    }
+
+    .HIW .card .card-body .heading {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .HIW .card .card-body .text {
+        font-size: 11px;
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+    .navbar-collapse.links {
+        display: block !important;
+    }
+}
+
+/*Responsive Media Query For Tablet Start*/
+
+@media only screen and (max-width: 1025px){
+
+    /*Section Padding Start*/
+    .section-padding {
+        padding: 40px 0;
+    }
+    /*Section Padding End*/
+
+
+    /* Navbar CSS */
+    .nav-link {
+        padding: 20px 0;
+    }
+
+
+
+    /*---Hero Section Start--- */
+    .hero-header {
+        min-height: 350px;
+    }
+
+    .hero-header .main-heading {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .hero-header .text {
+        font-size: 16px;
+    }
+
+    /*---Hero Section End--- */
+
+    .section-heading .heading {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .section-heading .heading:before {
+        width: 60px;
+        height: 3px;
+    }
+    .clint-section .section-heading .heading:after {
+        left: 0;
+        height: 70px;
+        width: 70px;
+        top: -12px;
+    }
+
+    .section-heading .text {
+        font-size: 17px;
+        line-height: 155.02%;
+        padding-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .clint-section-content {
+        padding-bottom: 50px;
+    }
+
+    .clint-main-card {
+        display: flex;
+        flex: initial;
+        margin-bottom: 15px;
+    }
+
+    .clint-main-card .card {
+        padding: 65px 20px 20px 20px;
+        margin: 10px 10px 70px 10px;
+        flex: 1;
+    }
+
+    .clint-main-card .card .clint-image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .clint-main-card .card .name {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .clint-review-message {
+        padding: 0;
+    }
+
+
+    .clint-review .message {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .clint-review .name {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .side-text-box:before {
+        top: 0;
+        width: 130px;
+        height: 130px;
+    }
+
+    .side-text-box .title-before-text {
+        font-size: 30px;
+        margin-bottom: 13px;
+    }
+    .side-text-box .heading {
+        font-size: 24px;
+        margin-bottom: 26px;
+        padding-bottom: 15px;
+    }
+    .side-text-box .heading:before{
+        width: 60px;
+        height: 3px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .side-text-box .text {
+        font-size: 16px;
+        padding-right: 0;
+    }
+    /*---Clint Section End--- */
+
+
+    /*Say Connected Section Css Start */
+    .say-connected {
+        background-size: cover;
+        background-position: initial;
+    }
+    .say-connected .content .heading {
+        font-size: 18px;
+        margin-bottom: 11px;
+    }
+    .say-connected .content .text {
+        font-size: 16px;
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    /*Say Connected Section Css End */
+
+
+
+    /*Wcu Section Css Start */
+    .wcu .row {
+        display: block;
+    }
+
+    .wcu .main-card {
+        display: block;
+    }
+
+    .wcu .card{
+        padding: 34px 14px;
+    }
+    .wcu .card .card-icon{
+        margin: 0 auto 23px auto ;
+    }
+    .wcu .card .heading{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .wcu .card .text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    /*Wcu Section Css End */
+
+
+    /*Progress Section Css Start  */
+
+    .progress-section .main-card {
+        display: block;
+        margin-bottom: 20px;
+        flex: auto;
+    }
+
+    .progress-section .card{
+        padding: 22px;
+        border: 0;
+        flex: auto;
+    }
+
+    .progress-section .card .heading{
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .progress-section .card .text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*Progress Section Css End  */
+
+
+    /*Choose Us Section Css Start  */
+
+    .choose-us .main-card{
+        display: flex;
+        flex: auto;
+        margin-bottom: 20px;
+    }
+
+    .choose-us .card .card-body .heading{
+        font-size: 24px;
+        margin-bottom: 16px;
+        margin-top: 24px;
+    }
+
+    .card-list li .text{
+        font-size: 16px;
+        margin-left: 18px !important;
+    }
+
+    .heading2 {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .recommended-box .text{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+
+    .accordion-list li .text{
+        font-size: 16px;
+        margin-left: 15px !important;
+    }
+
+    /*Choose Us Section Css End  */
+
+    /*How It Works Css Start */
+
+    .bg-richerdi {
+        background: url("../images/borders/richiedi-un-preventivo-border-tablet.png") no-repeat;
+        background-size: cover;
+        height: 214px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+
+    .bg-verifica {
+        background: url("../images/borders/verifica-la-compatibilitâ-border-tablet.png") no-repeat;
+        background-size: cover;
+        height: 214px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+    .bg-installazione {
+        background: url("../images/borders/installazione-border-tablet.png") no-repeat;
+        background-size: cover;
+        height: 214px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+    .bg-enjoy {
+        background: url("../images/borders/enjoy-your-sun-power-tablet.png") no-repeat;
+        background-size: cover;
+        height: 191px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+    /*How It Works Css End */
+
+}
+/*Responsive Media Query For Tablet End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Media Query For Tablet Start*/
+
+@media only screen and (max-width: 767px){
+
+
+    .top-bar-list li {
+        margin-right: 0;
+    }
+    .contact-icon {
+        margin-right: 5px;
+    }
+    .contact-link {
+        font-size: 10px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    /*---Hero Section Start--- */
+    .hero-header {
+        min-height: 250px;
+    }
+
+    .hero-header .main-heading {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    /*---Hero Section End--- */
+
+    .section-heading .heading {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .section-heading .heading:before {
+        width: 60px;
+        height: 3px;
+    }
+    .clint-section .section-heading .heading:after {
+        height: 50px;
+        width: 50px;
+    }
+
+    .section-heading .text {
+        font-size: 16px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+
+    .clint-main-card .card {
+        padding: 60px 20px 20px 20px;
+    }
+
+    .clint-main-card .card .clint-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .clint-main-card .card .name {
+        font-size: 16px;
+    }
+
+
+    .clint-review .message {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .clint-review .name {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .side-text-box:before {
+        top: 0;
+        width: 90px;
+        height: 130px;
+    }
+
+    .side-text-box .title-before-text {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .side-text-box .heading {
+        font-size: 18px;
+    }
+    .side-text-box .heading:before{
+        width: 40px;
+    }
+    .side-text-box .text {
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .content-bg-shape {
+        margin: 0;
+    }
+    /*---Clint Section End--- */
+
+
+    /*Say Connected Section Css Start */
+    .say-connected {
+        background-size: cover;
+        background-position: initial;
+    }
+    .say-connected .content .heading {
+        font-size: 16px;
+        margin-bottom: 11px;
+    }
+    .say-connected .content .text {
+        font-size: 14px;
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    /*Say Connected Section Css End */
+
+
+
+    /*Wcu Section Css Start */
+
+    .wcu .main-card {
+        display: block;
+    }
+    .wcu .card{
+        padding: 34px 14px;
+    }
+    /*.wcu .card .card-icon{*/
+    /*    margin: 0 auto 23px auto ;*/
+    /*}*/
+    .wcu .card .heading{
+        font-size: 18px;
+    }
+    .wcu .card .text{
+        font-size: 14px;
+    }
+    /*Wcu Section Css End */
+
+
+    /*Progress Section Css Start  */
+
+    .progress-section .main-card {
+        display: block;
+        margin-bottom: 20px;
+        flex: auto;
+    }
+
+    .progress-section .card{
+        padding: 22px;
+        border: 0;
+        flex: auto;
+    }
+
+    .progress-section .card .heading{
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .progress-section .card .text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*Progress Section Css End  */
+
+
+    /*Choose Us Section Css Start  */
+
+    .choose-us .main-card{
+        display: flex;
+        flex: auto;
+        margin-bottom: 20px;
+    }
+
+    .choose-us .card .card-body .heading{
+        font-size: 18px;
+    }
+
+    .card-list li .text{
+        font-size: 14px;
+    }
+
+
+    .recommended-box .text{
+        font-size: 14px;
+    }
+
+
+    .accordion-list li .text{
+        font-size: 14px;
+        margin-left: 15px !important;
+    }
+
+    /*Choose Us Section Css End  */
+
+
+    .FAQ .section-heading .heading:after {
+        top: 30px;
+        height: 70px;
+        width: 70px;
+    }
+
+
+    .contact .section-heading .heading:after {
+        top: 20px;
+        height: 70px;
+        width: 70px;
+    }
+
+    .copyright-text {
+        padding-bottom: 20px;
+    }
+
+    /*How It Works Css Start */
+
+    .bg-richerdi {
+        background: url("../images/borders/richiedi-un-preventivo-border-mobile.png") no-repeat;
+        background-size: contain;
+        height: 260px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+
+    .bg-verifica {
+        background: url("../images/borders/verifica-la-compatibilitâ-border-mobile.png") no-repeat;
+        background-size: contain;
+        height: 260px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+    .bg-installazione {
+        background: url("../images/borders/installazione-border-mobile.png") no-repeat;
+        background-size: contain;
+        height: 260px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+    .bg-enjoy {
+        background: url("../images/borders/enjoy-your-sun-power-mobile.png") no-repeat;
+        background-size: contain;
+        height: 260px;
+        padding: 10px 14px 2px 8px;
+        margin-bottom: 15px;
+    }
+
+    /*How It Works Css End */
+
+}
+/*Responsive Media Query For Tablet End*/
